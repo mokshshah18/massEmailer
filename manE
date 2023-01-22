@@ -1,0 +1,24 @@
+$1 is always the file input
+$2 is one of 3 other input
+too add a custom input to a custom file:
+use $1 to specify file to read
+$2 for thing to delete
+$3 add the keyword "cus" 
+$4 add the word to replace
+file is saved under "ab"(temp
+
+
+TO RESET MAIN FILE:
+use ./sc{script name} rest
+and see the *magic* work ;)
+
+TO STRESS TEST RESET:
+./s {file name(has to already be resetted use CUS to get to 0 if not done)} str
+
+TO HAVE A CUSTOM REPLACEMENT:
+./sc {word to change into; also acts as filename} cus {word to remove}
+
+TO CREATE A COPY WITH A CUSTOM WORD:
+./sc {file name(has to be resetted else use custom option)} {word to change into; also acts as filename}
+
+TO CHECK EVERY WORD EVER REPLACED, GO INTO THE FILE DIRECTORY AND CHECK THE log FILE.
